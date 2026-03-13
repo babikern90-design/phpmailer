@@ -13,7 +13,7 @@ function connexpdo($base,$param) // fonction connexion
 
   try // tester connexion
   {
-    $idcom = new PDO($dsn,$user,$pass); // connexion PDO
+    $idcom = new PDO($dsn,$user,$pass); // cree la connexion PDO
 
     return $idcom; // retourne connexion
   }
